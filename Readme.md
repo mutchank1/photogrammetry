@@ -1,4 +1,5 @@
 # photogrammetry
+![demo](assets/photgrammetry.gif)
 
 魚眼ステレオカメラ＋IMUを用いた、自己位置推定（VIO）とマッピングの実験用ワークスペースです。
 自己位置推定には OpenVINS、地図生成とループ閉じ込みには RTAB-Map を使い、魚眼画像をステレオ深度計算用に補正するノードを自作しています。
