@@ -1,0 +1,25 @@
+# colcon のビルド成果物（リポジトリを src/ の外に置いた場合に備えて）
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# データ（大きいので git に入れない）
+*.bag
+*.db3
+*.mcap
+rosbag2_*/
+*.db
+rosbag/
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+
+# configファイル
+src/my_vio_bringup/config/*
